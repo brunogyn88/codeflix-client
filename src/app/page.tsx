@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className='relative h-full overflow-hidden lg:h-[140vh]'>
+    <div className='relative h-full overflow-hidden bg-gradient-to-b  lg:h-[140vh]'>
       {/* <Header /> */}
       <main className='relative pb-24 pl-4 lg:pl-16'>
         <div className='flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[65vh] lg:justify-end lg:pb-12'>
@@ -21,7 +21,7 @@ export default function Home() {
 
           <p className='max-w-xs text-xs drop-shadow-md md:max-w-lg md:text-lg lg:max-w-2xl'>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s.
           </p>
 
